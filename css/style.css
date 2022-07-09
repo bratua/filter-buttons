@@ -1,0 +1,152 @@
+/* Begin of normalize */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  ouline: none;
+}
+
+a:focus,
+a:active {
+  ouline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/* End of normalize */
+
+.main-header {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.wraper {
+  margin: 20px;
+}
+
+.createElementBlock {
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+
+  outline: 5px solid #000000;
+  background-color: burlywood;
+}
+
+.createElementBlockItem {
+  margin: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.numberElemetnsToCreate,
+.createElementButton {
+  font-size: 20px;
+  padding: 10px;
+  outline: 3px solid #000000;
+}
+
+.elementsList {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: coral;
+  outline: 5px solid #000000;
+}
+
+.tagBatton {
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  height: 70px;
+  font-size: 30px;
+  text-align: center;
+
+  outline: 2px solid #000000;
+  border-radius: 20px;
+}
+
+/* .tagBatton:hover {
+  outline: 2px solid #3ca533;
+  background-color: aquamarine;
+} */
+
+.tagBatton.active {
+  transform: scale(0.8);
+  background-color: brown;
+}
